@@ -270,7 +270,7 @@ const updateTable = () => {
     </div>
   </div>
 </div>`;
-  for (key of Animal.animalMap.keys()) {
+  for (let key of Animal.animalMap.keys()) {
     if (Animal.animalMap.get(key).length) {
       const animals = Animal.animalMap.get(key);
       tableHtml += `
